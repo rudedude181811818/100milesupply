@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Mile Supply — Coming Soon</title>
+  <style>
+    body {
+      background: #0f1115;
+      color: #e8e8e8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      text-align: center;
+      padding: 80px 20px;
+      margin: 0;
+    }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 42px;
+      color: #25d366; /* electric green accent */
+      margin: 10px 0;
+    }
+    p {
+      font-size: 18px;
+      color: #aaa;
+      margin: 8px 0;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      background: #25d366;
+      color: #0f1115;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Upload logo.png into your repo root -->
+  <img src="./logo.png" alt="100 Mile Supply Logo" class="logo">
+  <h1>100 Mile Supply</h1>
+  <p>Ultra Running Gear & Endurance Fuel</p>
+  <p><strong>Launching soon...</strong></p>
+  <a class="cta" href="https://instagram.com/100milesupply" target="_blank" rel="noopener">Follow us on Instagram</a>
+  <footer>© <span id="year"></span> 100 Mile Supply</footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
